@@ -1,0 +1,489 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: plum;
+  @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap");
+}
+
+body {
+  max-width: 1200px;
+  height: 100%;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 550px 550px;
+  position: relative;
+}
+
+#container-one {
+  display: grid;
+  grid-template-columns: 550px;
+  grid-template-rows: auto auto auto auto auto;
+}
+
+#container-one .first-last-name h1 {
+  position: relative;
+  font-family: "Lora";
+  font-size: 6em;
+  line-height: 0em;
+  margin-top: 110px;
+  margin-left: 150px;
+}
+
+#container-one .professional-experience h3 {
+  position: relative;
+  font-family: "Lora";
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 110px;
+  margin-left: 150px;
+}
+
+.job-title h5 {
+  position: relative;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 60px;
+  margin-left: 150px;
+}
+
+.company-name p {
+  position: relative;
+  font-family: "Open Sans";
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+.years-worked p {
+  position: relative;
+  font-family: "Open Sans";
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+.target-work-experience ul li {
+  position: relative;
+  font-family: "Open Sans";
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 170px;
+  margin-bottom: 50px;
+  line-height: 2;
+}
+
+.mmm-work-experience ul li {
+  position: relative;
+  font-family: "Open Sans";
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 170px;
+  margin-bottom: 50px;
+  line-height: 2;
+}
+
+.united-work-experience ul li {
+  position: relative;
+  font-family: "Open Sans";
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 170px;
+  margin-bottom: 50px;
+  line-height: 2;
+}
+
+.cmeasures-work-experience ul li {
+  position: relative;
+  font-family: "Open Sans";
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 170px;
+  margin-bottom: 50px;
+  line-height: 2;
+}
+
+#container-two {
+  display: grid;
+  grid-template-columns: 550px;
+  grid-template-rows: auto auto auto auto auto;
+}
+
+#container-two .contact-information {
+  position: relative;
+  margin-top: 70px;
+  margin-left: 170px;
+}
+
+.contact-information tr td {
+  font-family: "Open Sans";
+  font-size: 0.9rem;
+  padding: 20px 0 20px 20px;
+}
+
+.education {
+  position: relative;
+  height: 70px;
+  width: 550px;
+}
+
+.education h4 {
+  position: relative;
+  margin-top: 60px;
+  margin-left: 20px;
+  font-family: "Lora";
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.century-college p {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  line-height: 0.15px;
+}
+
+.century-degree p {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  line-height: 0.15px;
+}
+
+.century-college-years p {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-family: "Open Sans";
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 0.15px;
+}
+
+.university-of-wisconsin p {
+  position: relative;
+  margin-top: 70px;
+  margin-left: 20px;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  line-height: 0.4px;
+}
+
+.university-of-wisconsin-degree p {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-family: "Open Sans";
+  font-size: 1rem;
+}
+
+.university-of-wisconsin-years p {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-family: "Open Sans";
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.recent-professional-training {
+  position: relative;
+  height: 150px;
+}
+
+.recent-professional-training h3 {
+  position: relative;
+  width: 550px;
+  margin-top: 240px;
+  margin-left: 20px;
+  font-family: "Lora";
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.microsoft-training p {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: "Open Sans";
+  font-size: 1rem;
+}
+
+.microsoft-training-dates p {
+  position: relative;
+  margin-top: 7px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  font-family: "Open Sans";
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.wordpress-development p {
+  position: relative;
+  margin-top: 7px;
+  margin-left: 20px;
+  font-family: "Open Sans";
+  font-size: 1rem;
+}
+
+.wordpress-development-dates p {
+  position: relative;
+  margin-top: 7px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  font-style: italic;
+  font-family: "Open Sans";
+  font-size: 1rem;
+}
+
+.interaction-design-foundation p {
+  position: relative;
+  margin-top: 7px;
+  margin-left: 20px;
+  font-family: "Open Sans";
+  font-size: 1rem;
+}
+
+.ux-training-dates p {
+  position: relative;
+  margin-top: 7px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  font-style: italic;
+  font-family: "Open Sans";
+  font-size: 1rem;
+}
+
+.adobe-certified-training p {
+  position: relative;
+  margin-top: 7px;
+  margin-left: 20px;
+  font-family: "Open Sans";
+  font-size: 1rem;
+}
+
+.adobe-certified-training-dates p {
+  position: relative;
+  margin-top: 7px;
+  margin-left: 20px;
+  font-style: italic;
+  font-family: "Open Sans";
+  font-size: 1rem;
+}
+
+.technical-skills {
+  position: relative;
+  height: 200px;
+  margin-top: 270px;
+}
+
+.technical-skills p {
+  position: relative;
+  margin-top: 7px;
+  margin-left: 20px;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.technical-skills ul li {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 40px;
+  font-family: "Open Sans";
+  font-size: 1rem;
+}
+
+.memberships {
+  position: relative;
+  height: 50px;
+  width: 550px;
+}
+
+.memberships h5 {
+  position: relative;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.memberships ul li {
+  position: relative;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+.languages-spoken {
+  position: relative;
+  height: 50px;
+  width: 550px;
+}
+
+.languages-spoken h5 {
+  position: relative;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.languages-spoken ul li {
+  position: relative;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  margin-top: 15px;
+  margin-left: 40px;
+}
